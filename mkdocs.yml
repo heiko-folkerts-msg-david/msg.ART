@@ -1,0 +1,46 @@
+site_name: msg ART
+site_author: msg
+repo_name: msg.ART
+repo_url: https://github.com/heiko-folkerts-msg-david/msg.ART
+# edit_uri: https://git.david-bs.de/-/ide/project/ASBC-PKI/asbc-wiki/tree/master/-/docs/
+theme:
+  name: material
+  palette:
+    primary: light blue
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+plugins:
+  - search:
+      lang:
+        - de
+        - de
+extra:
+  generator: false
+
+# For now, we are lazy and let mkdocs create the nav for us.
+
+# Page tree max 3 levels for navigation
+# any depth for md-files folder structure
+# ================================
+#nav:
+#  - ASBC-Wiki:
+#      - index.md
+#  - Entwicklungsumgebung:
+#      - 1-Kubectl_mit_VPN: Entwicklungsumgebung/1-Kubectl_mit_VPN.md
+#      - 2-Kubectl_API_Error: Entwicklungsumgebung/2-Kubectl_API_Error.md
+#  - CSS-Services:
+#      - Operational Manual: CSS-Services/om.md
+#      - Dispatcher URLs: CSS-Services/url.md
+#      - Kibana-links: CSS-Services/kibana.md
+#      - Logs: CSS-Services/logs.md
+
